@@ -4,16 +4,21 @@ public class SistemaVerificacaoCPF {
     public String getCpf() {
         return cpf;
     }
+
     public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
-    public String getCpfSeparador() {
-        String cpfNumero = cpf.replace(".", "").replace("-", "");   
-        return cpfNumero;
-    }
-    public void setCpfSeparador(String cpfSeparador) {
-        this.cpfSeparador = cpfSeparador;
+    public void validaCPF() {
+        if (cpf.length() == 14) {
+            if (cpf.charAt(3) == '.' && cpf.charAt(7) == '.' && cpf.charAt(11) == '-') {
+                System.out.println("\nCPF válido");
+            } else {
+                System.out.println("CPF inválido.");
+            }
+        } else {
+            System.out.println("CPF inválido.");
+        }
     }
 
 }
