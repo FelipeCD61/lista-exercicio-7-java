@@ -4,7 +4,7 @@ Centro Universitário UNA<br>
 Programação de Soluções Computacionais<br>
 Professor Daniel Henrique Matos de Paiva<br>
 # Lista de Exercícios VII: POO e Strings
-Considerações Iniciais:
+Considerações Iniciais:<br>
 Esta lista de exercício deve:
 - Ser realizada em equipes de até 07 alunos.
 - Ser entregue no prazo proposto.
