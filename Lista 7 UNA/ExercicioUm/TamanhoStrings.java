@@ -4,7 +4,7 @@ public class TamanhoStrings {
         Scanner scanner = new Scanner(System.in);
         ComparadorString comparadorString = new ComparadorString();
 
-        System.out.println("\n\t #### Comparados de duas Strings ####");
+        System.out.println("\n\t #### Comparador de duas Strings ####");
 
         System.out.println("Digtite a 1° string:");
         comparadorString.setString1(scanner.nextLine());        
